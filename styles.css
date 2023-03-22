@@ -1,0 +1,56 @@
+body{
+    font-family: cursive;
+}
+
+.container{
+    background-color: #e9edc9;
+    align-content: center;
+    width: fit-content;
+    height: fit-content;
+    margin: 5em 25em;
+    padding: 0em 2em 2em 2em;
+}
+h2{
+    color: #bc6c25;
+}
+
+.btn{
+    margin: 10px;
+    border: 1px solid #ccd5ae;
+}
+.btn:focus{
+    border: none;
+}
+input {
+    margin: 10px;
+    width: 100px;
+    shape-outside: circle(1);
+    transition: all 1s;
+   
+}
+input[type= button]:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 5px grey;
+    
+}
+
+#demo{
+    background-color: grey;
+    color: white;
+}
+
+#demo1{
+    width: 340px;
+}
+.demo{
+    display: inline-table;
+    margin: 1em auto;
+    position: relative;
+    background-color: #faedcd;
+    padding: 15px;
+    border: 2px solid #d4a373 ;
+
+}
+.form-control{
+    transition: all 1s;
+}
